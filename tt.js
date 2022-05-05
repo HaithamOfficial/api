@@ -188,19 +188,6 @@
     }
 }(jQuery);
 
-function shwotom() {
-    jQuery("#Tomorrow").addClass("acti").siblings().removeClass("acti"), jQuery(".titleG").html("3735769880916304873"), jQuery("a#tom").addClass("active").siblings().removeClass("active");
-}
-
-function shwotod() {
-    jQuery("#Today").addClass("acti").siblings().removeClass("acti"), jQuery(".titleG").html("3735769880916304873"), jQuery("a#tod").addClass("active").siblings().removeClass("active");
-}
-
-function shwoyas() {
-    jQuery("#yesterday").addClass("acti").siblings().removeClass("acti"), jQuery(".titleG").html("3735769880916304873"), jQuery("a#yas").addClass("active").siblings().removeClass("active");
-}
-
-
 jQuery(document).ready(function () {
     jQuery("a.AlbaSposrTable .date").each(function () {
         var t = jQuery(this),
